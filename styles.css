@@ -1,0 +1,28 @@
+*,
+*::before,
+*:after {
+  box-sizing: border-box;
+}
+
+:root {
+  --box-colour: #339999;
+  --answer-background: whitesmoke;
+  --default-padding: 32px;
+  --default-border-radius: 64px;
+}
+
+body {
+  margin: 0;
+  background-color: cadetblue !important;
+  font-family: "Courier New", Courier, monospace !important;
+}
+
+header {
+  background-color: var(--box-colour);
+  border-radius: var(--default-border-radius);
+  border-color: black;
+  border-style: solid;
+  padding: 128px 32px;
+  margin: 32px;
+  text-align: center;
+}
